@@ -8,6 +8,9 @@ import io
 # Page configuration
 st.set_page_config(page_title="Image Intensity Transformation", layout="wide")
 
+st.sidebar.image("logo.png", use_column_width=True)
+
+
 # Sidebar navigation
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "Transform Image", "About", "How It Works", "Contact"])
